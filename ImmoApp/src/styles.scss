@@ -2,11 +2,67 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-
+.app_title{
+    margin-left: 20px;
+    color: white;
+}
 .home_menu{
     width: 400px;
     background-color: #3f51b5;
 }
 .home_container{
     height: 100%;
+}
+.home_content{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.home_icon{
+    margin-right: 5px;
+}
+.home_button{
+    // maybe find a real fix later
+    color: white !important;
+}
+.youtube_video{
+    width: 700px;
+    height: 400px;
+}
+.other_videos{
+    figure{
+        // maybe find a real fix later
+        padding-top: 50px !important;
+        display: block !important;
+        text-align: end;
+    }
+}
+.title_small{
+    font-weight: bold;
+}
+.other_links{
+    list-style: none;
+    li {
+        color: #f62b41;
+        cursor: pointer;
+        // text-decoration: underline;
+    }
+    li:hover{
+        text-decoration: underline;   
+    }
+}
+.title_videos{
+    text-align: center;
+}
+.other_links_bottom{
+    text-align: left;
+    padding-left: 0px;
+}
+.button{
+    background-color: #f62b41;
+    color: white;
+}
+.centered{
+    figure {
+        text-align: center;
+    }
 }

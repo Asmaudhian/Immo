@@ -8,7 +8,10 @@ import { VideoHomeComponent } from './video-home/video-home.component';
 import { MatSidenavModule } from '@angular/material';
 import { MatListModule } from '@angular/material';
 import { MatIconModule } from '@angular/material';
+import { MatGridListModule } from '@angular/material';
 import { HomeComponent } from './home/home.component';
+import { MatButtonModule } from '@angular/material';
+import { MatDividerModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { HomeComponent } from './home/home.component';
     BrowserAnimationsModule,
     MatSidenavModule,
     MatListModule,
-    MatIconModule
+    MatIconModule,
+    MatGridListModule,
+    MatButtonModule,
+    MatDividerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

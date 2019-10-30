@@ -1,12 +1,12 @@
 <mat-sidenav-container class="home_container">
   <mat-sidenav class="home_menu" mode="side" opened>
-    <h1>Immo</h1>
+    <h1 class="app_title">Immo</h1>
       <mat-action-list>
-          <button mat-list-item (click)="save()"> Save </button>
-          <button mat-list-item (click)="undo()"> Undo </button>
-          <button mat-list-item (click)="save()"> Save </button>
-          <button mat-list-item (click)="undo()"> Undo </button>
+          <button class="home_button" mat-list-item (click)="save()"><mat-icon class="home_icon" aria-hidden="false" aria-label="Example home icon">home</mat-icon> Save </button>
+          <button class="home_button" mat-list-item (click)="undo()"><mat-icon class="home_icon" aria-hidden="false" aria-label="Example home icon">home</mat-icon> Undo </button>
+          <button class="home_button" mat-list-item (click)="save()"><mat-icon class="home_icon" aria-hidden="false" aria-label="Example home icon">home</mat-icon> Save </button>
+          <button class="home_button" mat-list-item (click)="undo()"><mat-icon class="home_icon" aria-hidden="false" aria-label="Example home icon">home</mat-icon> Undo </button>
         </mat-action-list>
   </mat-sidenav>
-  <mat-sidenav-content><router-outlet></router-outlet></mat-sidenav-content>
+  <mat-sidenav-content class="home_content"><router-outlet></router-outlet></mat-sidenav-content>
 </mat-sidenav-container>
