@@ -66,3 +66,24 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
         text-align: center;
     }
 }
+.rating_stars{
+    color: #ffde03;
+    font-size: 20px;
+}
+.rating{
+    display: inline-block;
+    vertical-align: middle;
+}
+.tools{
+    figure {
+        flex-direction: column;
+    }
+    cursor: pointer;
+}
+.tools:hover{
+    background-color: lightgray;
+}
+.tools_icon {
+    width: 70px !important;
+    font-size: 70px;
+}
