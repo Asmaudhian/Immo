@@ -12,12 +12,14 @@ import { MatGridListModule } from '@angular/material';
 import { HomeComponent } from './home/home.component';
 import { MatButtonModule } from '@angular/material';
 import { MatDividerModule } from '@angular/material';
+import { BookListComponent } from './book-list/book-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     VideoHomeComponent,
-    HomeComponent
+    HomeComponent,
+    BookListComponent
   ],
   imports: [
     BrowserModule,

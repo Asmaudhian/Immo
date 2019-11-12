@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "immo-351e5": {
+      "hosting": {
+        "ImmoApp": [
+          "immo-351e5"
+        ]
+      }
+    }
+  }
+}
